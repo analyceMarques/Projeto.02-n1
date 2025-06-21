@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: linear-gradient(135deg, #315c70, #3a6472, #5697b3); /* faz o degrade da do "grau" ou ondulacao do deg(graus)  */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  width: 100%;
+  height: 135px;
+  text-align: center;
+  padding: 30px; 
+
+}
+
+.jogo {
+  background: linear-gradient(90deg, #ff5757, #f58231,#ffe119, #bfef45,#42d4f4,#4363d8, #911eb4 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 80px;
+  background-size: 849px;
+}
+
+#in{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 195px);
+}
+
+#in a {
+  border: 1px solid #01e498;
+  background: rgba(255, 255, 255, 0.1); /* vidro fosco */
+  color: #01ecb1;
+  text-decoration: none;
+  padding: 30px 60px;
+  border-radius: 15px; /*deixa as bordas redondas*/
+  font-weight: bold; /* borra o fundo */
+  text-shadow: 1px 1px 5px #000; /* deixa uma sobra no texto */
+
+}

@@ -1,0 +1,26 @@
+body{
+  background: linear-gradient(135deg, #315c70, #3a6472, #5697b3);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#contador {
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px #ffffff;
+  animation: pulse 1s infinite; /* animaao, pulsao*/
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.6); }
+  100% { transform: scale(1); }
+  /* kay uma animacao ou trans. e ele e chamao pelo pulse(que pode ser qulqer nome)
+  os valores de baixo so estao passando o tempo de trans. de tamanho em 1s que foi definido no animation
+  scale=tamanho
+  */
+}
